@@ -83,6 +83,7 @@ alembic upgrade head
 
 # Start server
 uvicorn main:app --reload
+uvicorn backend.main:app --reload
 ```
 
 #### Frontend
